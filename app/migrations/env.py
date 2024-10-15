@@ -11,7 +11,7 @@ from alembic import context
 sys.path.insert(0, dirname(dirname(dirname(abspath(__file__)))))
 
 from app.db.database import Base
-from app.foodstuffs.models import FoodStuffs
+from app.foodstuffs.models import FoodStuff
 
 from app.config import settings
 

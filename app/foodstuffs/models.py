@@ -5,7 +5,7 @@ from app.db.database import Base
 
 
 # Модель продуктов питания
-class FoodStuffs(Base):
+class FoodStuff(Base):
     __tablename__ = 'foodstuffs'
 
     id = Column(Integer, primary_key=True, index=True)
